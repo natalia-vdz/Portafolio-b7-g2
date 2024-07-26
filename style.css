@@ -1,0 +1,21 @@
+#presentacion {
+    height: 88vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#img-presentacion {
+    border-radius: 50%;
+    padding: 40px;
+}
+
+#habilidades {
+    height: 100vh;
+    display: flex;
+}
+
+#contactame {
+    background-color: rgb(232, 209, 124);
+    border: none;
+}
