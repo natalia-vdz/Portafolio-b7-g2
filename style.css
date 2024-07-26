@@ -13,9 +13,32 @@
 #habilidades {
     height: 100vh;
     display: flex;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: justify;
 }
 
 #contactame {
     background-color: rgb(232, 209, 124);
     border: none;
+}
+
+.bi {
+    color: rgb(232, 209, 124);
+    border: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.feature {
+    padding: 1rem; /* Ajusta el valor según tus necesidades */
+    text-align: justify;
+    border-radius: 0.5rem; /* Opcional: para bordes redondeados */
+}
+
+.feature-icon {
+    margin-bottom: 1rem; /* Espacio entre el ícono y el texto */
 }
