@@ -26,13 +26,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Habilidades</a>
+                            <a class="nav-link active" aria-current="page" href="#hablidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Proyectos</a>
+                            <a class="nav-link active" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Testimonios</a>
+                            <a class="nav-link active" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Contacto</a>
@@ -83,7 +83,7 @@
                         <i class="bi bi-bookmark-dash-fill"></i>
                     </div>
                     <h3 class="fs-2 text-body-emphasis text">Desarollo web</h3>
-                    <p  class="text-justify">Soy Tecnolochica de corazón. Durante el verano, tuve la oportunidad de participar en un bootcamp
+                    <p  class="text-justify">Soy Tecnolochica de corazón. Durante el verano de 2024, tuve la oportunidad de participar en un bootcamp
                         intensivo organizado por la Fundación Santander y Televisa, centrado en el desarrollo web. Este
                         programa no solo reforzó mis conocimientos en HTML, CSS y JavaScript, sino que también me
                         permitió aplicar estos lenguajes en proyectos prácticos, impulsando mi pasión por la tecnología.
@@ -178,8 +178,14 @@
         </section>
 
 
-        <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <section class="container px-4 py-5" id="testimonios">
+
+            <h2 class="pb-2 border-bottom">Testimonios</h2>
+
+            <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
+                
+               
+                <!-- Indicadores son los puntitos encima que me permiten navegar por los elementos -->
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
                         aria-label="Slide 1" aria-current="true"></button>
@@ -188,48 +194,46 @@
                     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
                         class=""></button>
                 </div>
+
+                <!-- Contenido del carrusel -->
                 <div class="carousel-inner">
+
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
-                                <p class="opacity-75">Some representative placeholder content for the first slide of the
-                                    carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                            </div>
-                        </div>
+
+                        <article class="container text-center px-5 py-5">
+                            <img class="rounded-5" src="imágenes/tecnolochicas.png" height="300" alt="Litzi Sánchez">
+                            <h3 class="my-3" class="text-container">Litzi Sánchez</h3>
+                            <p class="text-container">Natalia Ayala ha demostrado ser una alumna excepcionalmente responsable y creativa durante todo el curso. Su dedicación y entusiasmo por aprender son evidentes en cada proyecto que aborda, y su capacidad para innovar y aportar ideas frescas ha sido una constante fuente de inspiración. Cada trabajo que realiza refleja su compromiso con la mejora continua y el desarrollo personal, haciendo que su desempeño sea sobresaliente.</p>
+                                
+                        </article>
+                     
                     </div>
+
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Another example headline.</h1>
-                                <p>Some representative placeholder content for the second slide of the carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                            </div>
-                        </div>
+
+                        <article class="container text-center px-5 py-5">
+                            <img src="imágenes/semana.jpg" height="300" alt="Alan Sánchez" id="imagen-redonda">
+                            <h3 class="my-3" class="text-container">Alan Sánchez</h3>
+                            <p class="text-container">Natalia Ayala ha demostrado ser una compañera de equipo excepcional durante nuestro trabajo en el cartel sobre Rhizobium en la Semana de Procariontes. Su creatividad y compromiso con el proyecto fueron notables, y su interés por aprender siempre la impulsó a superar las expectativas. La colaboración con ella fue enriquecedora y su aporte clave para el éxito de nuestra exposición. </p>
+                                
+                        </article>
+                     
                     </div>
+
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
-                            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <div class="container">
-                            <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                            </div>
-                        </div>
+
+                        <article class="container text-center px-5 py-5">
+                            <img class="rounded-5" src="imágenes/MICAH.jpeg" height="300" alt="MICAH">
+                            <h3 class="my-3" class="text-container">Diana Bautista</h3>
+                            <p class="text-container">Natalia Ayala ha sido una colaboradora destacada y muy innovadora en nuestro proyecto sobre la evaluación de convertidores catalíticos para hornos de piedra. Su pasión por el aprendizaje y su compromiso con el trabajo fueron esenciales para el éxito de nuestra presentación en la Muestra Interdisciplinaria de las Ciencias, Artes y Humanidades (MICAH). </p>
+                                
+                        </article>
+                     
                     </div>
+
                 </div>
+               
+                <!-- Botones que son las flechitas para pasar de diapositiva -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -238,6 +242,8 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+
+
             </div>
         </section>
 
