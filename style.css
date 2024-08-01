@@ -5,6 +5,18 @@
     align-items: center;
 }
 
+#proyectos {
+    height: 100vh;
+}
+
+#testimonios {
+    height: 100vh;
+}
+
+#contacto {
+    height: 100vh;
+}
+
 #img-presentacion {
     border-radius: 50%;
     padding: 40px;
@@ -47,6 +59,7 @@
     background-position: center;
     background-size: contain;
 }
+
 
 #proyecto-1 {
     background-image: url('imágenes/algs.jpg');
