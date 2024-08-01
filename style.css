@@ -143,3 +143,8 @@
     margin-right: 1.5rem; /* Ajusta el margen derecho de la imagen para separar la imagen del texto */
 }
 
+
+.social-nav .nav-link i {
+    color: #3e3d3ace; /* Or use any color that matches your design */
+}
+
