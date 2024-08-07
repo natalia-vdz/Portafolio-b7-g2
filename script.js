@@ -34,3 +34,35 @@ typewriter
       .pauseFor(300)
       .deleteAll()
       .start();
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const emailButton = document.getElementById('copiar-email');
+        const email = emailButton.textContent;
+    
+        emailButton.addEventListener('click', async function() {
+          try {
+            await navigator.clipboard.writeText(email);
+            alert('¡Correo electrónico copiado al portapapeles!');
+          } catch (err) {
+            console.error('Error al copiar el correo electrónico:', err);
+          }
+        });
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const musicButton = document.querySelector('.music-button i');
+        const backgroundMusic = document.getElementById('background-music');
+      
+        // Configura el volumen del audio
+        backgroundMusic.volume = 0.1; // Volumen bajo, puedes ajustar este valor si es necesario
+      
+        musicButton.addEventListener('click', function() {
+          if (backgroundMusic.paused) {
+            backgroundMusic.play();
+            musicButton.style.color = '#f7d979'; // Cambia el color del ícono para indicar que la música está activa
+          } else {
+            backgroundMusic.pause();
+            musicButton.style.color = '#f1c40f'; // Restaura el color del ícono cuando la música está en pausa
+          }
+        });
+      });

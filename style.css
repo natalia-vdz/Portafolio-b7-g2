@@ -6,11 +6,14 @@
 }
 
 #proyectos {
-    height: 85vh;
+    height: 90vh;
 }
 
+
+
 #testimonios {
-    height: 100vh;
+    height: 105vh;
+    padding-top: 0cm;
 }
 
 
@@ -171,3 +174,21 @@
     margin-bottom: 1rem;
     font-style: italic;
 }
+
+.navbar .music-button {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Alinea el botón a la derecha */
+    padding: 0; /* Elimina el padding por defecto */
+  }
+
+  .navbar .music-button i {
+    font-size: 1.5rem; /* Tamaño del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+    line-height: 1; /* Alinea verticalmente con los otros elementos */
+  }
+
+  /* Ajusta el margen del ícono para que coincida con el espacio de los elementos de navegación */
+  .navbar-nav .nav-item {
+    margin-left: 1rem; /* Espaciado entre los ítems */
+  }
