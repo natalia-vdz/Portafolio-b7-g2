@@ -12,7 +12,7 @@ typewriter
     .typeString('Natalia Ayala')
     .pauseFor(300)
     .deleteAll()
-    .typeString('<strong><span style="color: #f7d979;">Biológa en formación</span></strong>')
+    .typeString('<strong><span style="color: #f7d979;">Bióloga en formación</span></strong>')
     .pauseFor(1000)
     .deleteAll()
     .typeString('<strong><span style="color: #f1c40f;">Desarrolladora FRONTED JR</span></strong>')
